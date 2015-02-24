@@ -349,13 +349,13 @@ function JSON2CSV2(objArray) {
 $("#download").click(function() {
  //   var json = $.parseJSON($("#json").val());
     var csv = JSON2CSV(res);
-    window.open("data:text/xls;charset=utf-8," + escape(csv))
+    window.open("data:text/csv;charset=utf-8," + escape(csv))
 });
 
 $("#download2").click(function() {
  //   var json = $.parseJSON($("#json").val());
     var csv = JSON2CSV2(res2);
-    window.open("data:text/xls;charset=utf-8," + escape(csv))
+    window.open("data:text/csv;charset=utf-8," + escape(csv))
 });
 
 
